@@ -4,7 +4,7 @@
     border-radius: 6px;
     margin: 50px auto;
     background-color: white;
-    box-shadow: 1px 1px 10px 1px grey;
+    box-shadow: 1px 1px 10px 1px rgb(41, 40, 40);
 }
 
 .birthday-list button {
@@ -34,6 +34,6 @@
 }
 
 h1,
-h3 {
-    color: #393535;
+p {
+    color: rgb(59, 55, 55);
 }

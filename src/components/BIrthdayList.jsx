@@ -7,6 +7,9 @@ const BirthDayList = () => {
     const handleClear = () => {
         setPeople([])
     }
+    const handleReset = () => {
+        setPeople(list)
+    }
 
     return (
         <section className="birthday-list">
@@ -30,7 +33,7 @@ const BirthDayList = () => {
                 })
             }
 
-            <button type="button" onClick={handleClear}>Clear All</button>
+            {people.length >= 1 ? <button onClick={handleClear}>Clear List</button> : <button onClick={handleReset}>Rest List</button>}
 
         </section>
     )
