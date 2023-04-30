@@ -30,5 +30,10 @@
     border-radius: 50%;
     object-fit: cover;
     object-position: 35% 15%;
-    margin: 10px ;
+    margin: 10px;
+}
+
+h1,
+h3 {
+    color: #393535;
 }
