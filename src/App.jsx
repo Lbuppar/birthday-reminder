@@ -1,9 +1,10 @@
+import "./App.css"
+import BirthDayList from "./Components/BirthDayList"
 const App = () => {
     return (
-        <div>
-            <h1>App component</h1>
-
-        </div>
+        <main className="app">
+            <BirthDayList />
+        </main>
     )
 }
 export default App
